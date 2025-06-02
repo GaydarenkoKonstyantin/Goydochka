@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>???</title>
+</head>
+<body>
+	<style>
+	body {
+		background-image: url(epilepsy.gif);
+	}
+
+  .card-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .form-group small {
+    display: block;
+    margin-top: 5px;
+    color: #aaaaaa;
+  }
+
+  .card-form input::placeholder {
+    color: #cccccc;
+  }
+
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .row .form-group {
+    flex: 1;
+  }
+</style>
+
+<div class="card-form">
+  <div class="form-group">
+    <label for="cardNumber">Номер картки</label>
+    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+    <small>Введіть 16 цифр без дефісів</small>
+  </div>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="expDate">Термін дії</label>
+      <input type="text" id="expDate" placeholder="MM/YY" maxlength="5">
+      <small>Місяць та рік, наприклад 04/26</small>
+    </div>
+
+    <div class="form-group">
+      <label for="cvv">CVV</label>
+      <input type="password" id="cvv" placeholder="123" maxlength="4">
+      <small>3 або 4 цифри на звороті картки</small>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cardName">Ім’я власника</label>
+    <input type="text" id="cardName" placeholder="IVAN IVANOV">
+    <small>Ім’я латинськими літерами, як на картці</small>
+  </div>
+</div>
+<img src="rei.gif" width="10%">
+
+</body>
+</html>

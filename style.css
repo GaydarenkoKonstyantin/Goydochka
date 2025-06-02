@@ -1,0 +1,51 @@
+nav {
+	border: solid;
+	text-align: center;
+	padding: 5px;
+	display: flex;
+	padding-inline: 25px;
+}
+
+nav img {
+	width: 2vw;
+	padding-right: 2vw;
+}
+
+nav button {
+	border: none;
+	background-color: gray;
+	margin-left: auto;
+}
+
+nav button:hover {
+	background-color: red;
+}
+
+button {
+	border: solid;
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+
+body {
+	background-color: black;
+	color: white;
+	background-image: url("124bg.gif");
+}
+
+#Gallery {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#Gallery img {
+	width: 90%;
+
+}
+
+main {
+	
+}
